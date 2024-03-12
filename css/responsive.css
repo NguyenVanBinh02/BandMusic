@@ -1,0 +1,90 @@
+/*Pc*/
+
+@media (max-width: 64em) {}
+
+
+/* 2 cai duoi*/
+
+@media (max-width: 63.9375em) {}
+
+.place_buy {
+    padding: 15px 16px;
+}
+
+.Contact_form .form {
+    padding: 15px;
+}
+
+.social_list {
+    font-size: 48px;
+}
+
+.contract_info {
+    line-height: 2;
+}
+
+#footer.social_list a {
+    margin: 0 8px;
+}
+
+#footer .coppy_right a {
+    padding: 12px 0;
+    display: inline-block;
+}
+
+#nav .subnav a {
+    padding: 5px 12px;
+}
+
+
+/*Ipad*/
+
+@media (max-width: 46.25em) and (min-width: 63.9375em) {}
+
+
+/* iphone */
+
+@media (max-width:46.1875em) {
+    .s_full_width,
+    .s_col_full {
+        width: 100%;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background: #333;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #header .mobile_menu {
+        display: block;
+    }
+    #header .search {
+        display: none;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #content .meber_img {
+        width: 60%;
+    }
+    .s_col_full {
+        width: 100%;
+    }
+    .s_mt_8 {
+        margin-top: 8px;
+    }
+    .Contact_form {
+        margin-top: 32px;
+    }
+}
